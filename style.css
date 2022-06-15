@@ -8,6 +8,16 @@ header  {
   height: 50%; 
 }
 
+hr {
+  width: 15px;
+  height: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: black;
+  background: black;
+  transform: rotate(45deg);
+}
+
 main {
   background-image: url("images/american-flag.jpg");
   height:50%;
@@ -16,6 +26,7 @@ main {
 
 h1 a{
   color: #ffc300;
+  font-family: futura, serif;
 }
 
 header h1 {
@@ -27,7 +38,7 @@ header h1 {
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 30px;
-  text-shadow: 0px 0px 12px #000;
+  text-shadow: 0px 0px 12px #39ff14 ;
 }
 
 nav {
@@ -65,34 +76,44 @@ main h2 {
 }
 main p {
   color: white;
+  padding-left: 5px;
 }
 
 .full-image {
 	position: relative;
 	min-width: 980px;
 }
+
 .full-image img {
 	display: block;
 	width: 100%;
 	border: 1px #b4b4b4 solid;
 }
-.color-band {
-    height: 20px;
-	background-color: #c8d6e3;	
-	border: 1px solid #b7c4d0;
+ul, ol {
+  color: white;
 }
 
+
 footer {
-  text-align: center;
-  background-image: url("images/we-the-people.jpg");
+  
+  background-image: url("images/american flag.webp");
+  height: 100
 }
 
 footer h3 {
+  text-align: center;
   color: yellow;
+  font-size: 50px;
+  font-family: future, serif;
 }
 
 a {
   font-family: arial;
   text-decoration: underline;
-  color: blue;
+  color: green;
+  margin: top 0;
+  font-size: 20px;  
 }
+
+p a:hover { color: red;}
+
