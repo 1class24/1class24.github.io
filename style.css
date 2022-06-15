@@ -27,6 +27,7 @@ main {
 h1 a{
   color: #ffc300;
   font-family: futura, serif;
+  font-size: 68px;
 }
 
 header h1 {
@@ -38,7 +39,7 @@ header h1 {
   margin-top: 0;
   padding-top: 80px;
   padding-bottom: 30px;
-  text-shadow: 0px 0px 12px #39ff14 ;
+  text-shadow: 0px 0px 12px #39ff14;
 }
 
 nav {
@@ -102,7 +103,7 @@ footer {
 
 footer h3 {
   text-align: center;
-  color: #ffc300;
+  color: yellow;
   font-size: 50px;
   font-family: future, serif;
 }
@@ -116,4 +117,3 @@ a {
 }
 
 p a:hover { color: red;}
-
