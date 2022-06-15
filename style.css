@@ -1,5 +1,21 @@
-header {
-  background-image: url("images/header-city-image.jpg");
+.image-circle {
+  border-radius: 50%; 
+  width: 120px;
+}
+
+header  {
+  background-image: url("images/home/header-image-city.jpg");
+  height: 50%; 
+}
+
+main {
+  background-image: url("images/american-flag.jpg");
+  height:50%;
+}
+
+
+h1 a{
+  color: #ffc300;
 }
 
 header h1 {
@@ -10,6 +26,73 @@ header h1 {
   text-transform: uppercase;
   margin-top: 0;
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 30px;
   text-shadow: 0px 0px 12px #000;
+}
+
+nav {
+  float: right;
+  margin: 52px 20px 0 0;
+
+}
+
+nav a {
+  display: inline-block;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+
+nav a:hover {
+  color: #ab381c;
+}
+
+nav a:last-of-type {
+  margin-right: 20px;
+}
+
+main h2 {
+  text-align: center;
+  margin: 20px;
+  color: #bbb7b5
+}
+main p {
+  color: white;
+}
+
+.full-image {
+	position: relative;
+	min-width: 980px;
+}
+.full-image img {
+	display: block;
+	width: 100%;
+	border: 1px #b4b4b4 solid;
+}
+.color-band {
+    height: 20px;
+	background-color: #c8d6e3;	
+	border: 1px solid #b7c4d0;
+}
+
+footer {
+  text-align: center;
+  background-image: url("images/we-the-people.jpg");
+}
+
+footer h3 {
+  color: yellow;
+}
+
+a {
+  font-family: arial;
+  text-decoration: underline;
+  color: blue;
 }
